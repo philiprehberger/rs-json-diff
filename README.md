@@ -11,7 +11,7 @@ Structural JSON diff with path tracking for Rust.
 Add to your `Cargo.toml`:
 
 ```toml
-philiprehberger-json-diff = "0.1"
+philiprehberger-json-diff = "0.1.4"
 ```
 
 ## Usage
