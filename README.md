@@ -11,7 +11,7 @@ Structural JSON diff with path tracking for Rust.
 Add to your `Cargo.toml`:
 
 ```toml
-philiprehberger-json-diff = "0.1.4"
+philiprehberger-json-diff = "0.1.5"
 ```
 
 ## Usage
@@ -51,6 +51,14 @@ println!("Added: {}, Removed: {}, Modified: {}", summary.added, summary.removed,
 | `ChangeType` | Enum: `Added`, `Removed`, `Modified` |
 | `Change` | Struct with `path`, `change_type`, `old_value`, `new_value` |
 | `DiffSummary` | Struct with `added`, `removed`, `modified` counts |
+
+
+## Development
+
+```bash
+cargo test
+cargo clippy -- -D warnings
+```
 
 ## License
 
