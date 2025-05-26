@@ -10,7 +10,7 @@ Structural JSON diff with path tracking for Rust
 
 ```toml
 [dependencies]
-philiprehberger-json-diff = "0.1.6"
+philiprehberger-json-diff = "0.1.7"
 ```
 
 ## Usage
