@@ -2,7 +2,11 @@
 
 [![CI](https://github.com/philiprehberger/rs-json-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/rs-json-diff/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/philiprehberger-json-diff.svg)](https://crates.io/crates/philiprehberger-json-diff)
+[![GitHub release](https://img.shields.io/github/v/release/philiprehberger/rs-json-diff)](https://github.com/philiprehberger/rs-json-diff/releases)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/rs-json-diff)](https://github.com/philiprehberger/rs-json-diff/commits/main)
 [![License](https://img.shields.io/github/license/philiprehberger/rs-json-diff)](LICENSE)
+[![Bug Reports](https://img.shields.io/github/issues/philiprehberger/rs-json-diff/bug)](https://github.com/philiprehberger/rs-json-diff/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Feature Requests](https://img.shields.io/github/issues/philiprehberger/rs-json-diff/enhancement)](https://github.com/philiprehberger/rs-json-diff/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 [![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Structural JSON diff with path tracking for Rust
@@ -11,7 +15,7 @@ Structural JSON diff with path tracking for Rust
 
 ```toml
 [dependencies]
-philiprehberger-json-diff = "0.1.7"
+philiprehberger-json-diff = "0.1.8"
 ```
 
 ## Usage
@@ -60,6 +64,13 @@ cargo test
 cargo clippy -- -D warnings
 ```
 
+## Support
+
+If you find this package useful, consider giving it a star on GitHub — it helps motivate continued maintenance and development.
+
+[![LinkedIn](https://img.shields.io/badge/Philip%20Rehberger-LinkedIn-0A66C2?logo=linkedin)](https://www.linkedin.com/in/philiprehberger)
+[![More packages](https://img.shields.io/badge/more-open%20source%20packages-blue)](https://philiprehberger.com/open-source-packages)
+
 ## License
 
-MIT
+[MIT](LICENSE)
