@@ -4,13 +4,12 @@
 [![Crates.io](https://img.shields.io/crates/v/philiprehberger-json-diff.svg)](https://crates.io/crates/philiprehberger-json-diff)
 [![License](https://img.shields.io/github/license/philiprehberger/rs-json-diff)](LICENSE)
 
-Structural JSON diff with path tracking for Rust.
+Structural JSON diff with path tracking for Rust
 
 ## Installation
 
-Add to your `Cargo.toml`:
-
 ```toml
+[dependencies]
 philiprehberger-json-diff = "0.1.5"
 ```
 
