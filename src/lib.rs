@@ -1,3 +1,17 @@
+//! Structural JSON diff with path tracking.
+//!
+//! # Example
+//!
+//! ```rust
+//! use philiprehberger_json_diff::diff;
+//! use serde_json::json;
+//!
+//! let a = json!({"name": "Alice", "age": 30});
+//! let b = json!({"name": "Alice", "age": 31});
+//! let changes = diff(&a, &b);
+//! assert_eq!(changes.len(), 1);
+//! ```
+
 use serde_json::Value;
 use std::fmt;
 
