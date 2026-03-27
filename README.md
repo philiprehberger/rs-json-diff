@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/rs-json-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/rs-json-diff/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/philiprehberger-json-diff.svg)](https://crates.io/crates/philiprehberger-json-diff)
 [![License](https://img.shields.io/github/license/philiprehberger/rs-json-diff)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Structural JSON diff with path tracking for Rust
 
